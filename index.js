@@ -8,7 +8,6 @@ const { idGenerator, formatDate, hasDuplicates } = myFunctions;
 //To change the excel file just change the path.
 const fileSrc = "./resources/jimalaya.xlsx";
 const newClientsClubId = 2400;
-let emailsArr = [];
 
 // Create a connection to the database
 const connection = mysql.createConnection({
